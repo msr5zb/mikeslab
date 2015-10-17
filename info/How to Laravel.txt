@@ -1,0 +1,15 @@
+How To Install Laravel: Note we're using V5.0 because our server php version is older than 5.9.
+http://laravel.com/docs/5.0
+
+
+Use: "php composer.phar require "laravel/installer=~1.1"" to install laravel
+Note, we are not using "composer global require "laravel/installer=~1.1" because we do not want it globally installed.
+
+
+To Access, use 
+"vendor/bin/laravel [command]"
+
+
+
+
+
