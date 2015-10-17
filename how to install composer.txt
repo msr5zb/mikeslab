@@ -1,0 +1,10 @@
+In Terminal, type:
+curl -sS https://getcomposer.org/installer | php
+
+
+Once installed, to use it, type: 
+"php composer.phar [command]"
+
+Note, ours is installed locally, so cannot bin it (Means can't make shortcut to just type "composer").
+
+
