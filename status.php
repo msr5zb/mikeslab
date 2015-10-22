@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Status</title>    
+<title>Status</title>
+<link rel="stylesheet" type="text/css" href="libs/css/styles.css">
+
 <link rel="stylesheet" type="text/css" href="libs/css/stylesStatus.css">
     
 <style>
