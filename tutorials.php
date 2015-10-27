@@ -55,7 +55,7 @@ Note, ours is installed locally, so cannot bin it (Means can't make shortcut to 
 <p>Note we're using V5.0 because our server php version is older than 5.9. More info found <a href="http://laravel.com/docs/5.0" target="_blank">here</a>
 </p>
 <p>It was installed via Composer using the command: "php composer.phar require "laravel/installer=~1.1""</p>
-<p>Note, we are not using "composer global require "laravel/installer=~1.1" because we do not want it globally installed.
+<p>Note, we are NOT using "composer global require "laravel/installer=~1.1"" because we do not want it globally installed.
 </p><br>
         
 <h3>How do I use Laravel?</h3>
@@ -64,7 +64,9 @@ Note, ours is installed locally, so cannot bin it (Means can't make shortcut to 
 <p>To view commands using Laravel, use 
 "vendor/bin/laravel"</p>
 <p>To execute a command, use
-"vendor/bin/laravel [command]"</p><br>
+"vendor/bin/laravel [command]"</p>
+<p>Lastly, to create a new laravel application simply type: "vendor/bin/laravel new AccessZou"</p><br>
+    
             
 <img src="libs/images/laravelEx.PNG" alt="laravel" class="bubbleImage"> 
 
