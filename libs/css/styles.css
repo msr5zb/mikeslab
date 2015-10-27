@@ -19,11 +19,12 @@ body{
     background-color:white;
     margin: auto;
     width: 1400px;
-    height:500px;
+    height:auto;
+    
   
     border-bottom-left-radius: 36px;
     border-bottom-right-radius: 36px;
-    padding: 0px;
+    padding-bottom: 50px;
 }
 
 #wrapperTitle{
@@ -31,8 +32,8 @@ body{
     text-align: center;
 }
 
-#birdPic{
-    margin:15px 0px 0px 100px;
+#banner{
+    margin:15px 0px 0px 300px;
     width:800px;
     height:420px;
     border-radius: 30px;

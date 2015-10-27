@@ -1,0 +1,92 @@
+/*Style Sheet! */
+
+
+.bx-wrapper {
+	background-color: cornflowerblue;
+	text-align: center;
+}
+
+
+#bubbleContainer{
+    padding:30px 40px;
+    margin-left: 40px;
+}
+
+
+			.bubble:nth-of-type(1) {
+				background-color: orange;
+			}
+			.bubble:nth-of-type(2) {
+				background-color: forestgreen;
+			}
+			.bubble:nth-of-type(3) {
+				background-color: cornflowerblue;
+			}
+			
+			.bubble:nth-of-type(4) {
+				background-color: lightpink;
+			}		
+			
+				.bubble:nth-of-type(5) {
+				background-color: mediumpurple;
+			}		
+	
+			.bubble:nth-of-type(6) {
+				background-color: darkred;
+			}
+			
+			.bubble:hover > p {
+				font-size: 2.0em;
+                color:white;
+				margin-left: 50px;
+			}
+
+			.bubble:hover > p.small {
+				font-size: 1.5em;
+                color:white;
+				margin-left: 50px;
+			}
+			.bubble:hover {
+				width: 1200px;
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+            
+            .bubble {
+				width: 300px;
+				height: 220px;
+				margin-top: 10px;
+				border-radius: 50px;
+				overflow: hidden;
+				
+				/* If changed, width/border-radius properties will transition over 2 seconds */
+				-webkit-transition: width 2s, border-radius 2s;
+				transition: width 2s, border-radius 2s;
+				
+			}
+            .bubble > p {
+				color: rgba(0,0,0,0.0);
+				padding: 10px;
+				/* Fade in the text and move the margin for Lorem Ipsum text */
+				-webkit-transition: color 2s, margin-left 2s;
+				transition: color 2s, margin-left 2s;
+				
+				/* Alternatively, it is possible to transition everything */
+				transition: all 2s;
+
+			}
+
+
+            .bubbleImage{
+                height:200px;
+                width: 260px;
+                border-radius: 50px;
+                padding:10px 20px;
+                float:left;
+            }
+
+
+
+
+
+

@@ -30,16 +30,56 @@
         <hr>
         
 <div id="toDoWrapper">  
-        <h3>Website is currently under construction... Sorry about that :/</h3>
-        <div id="toDoList">   
+        <h1>Current Meeting Time:</h1>
+        <hr>
+        <h3>Date: xx/xx/15</h3>
+        <h3>Time: xx:xx</h3>
+        <h3>Location:</h3>
+        <h3>Discussion Topics: </h3>
+        <ul>
+            <li>Requirement Analysis</li>
+            <li>Laravel Tutorials</li>
+            <li>PostGreSQL Server</li>
+            <li>Azure Virtual Machine</li>
+            <li>Documentation!</li>
+            <li>Use Case Diagrams!</li>
+            <li>ERDs!</li>
+            <li>Interfaces, etc.</li>
+        </ul>
+        <hr>
+    
+    <h1>Previous Meetings:</h1>
+        <hr>
+        <h3>Date: 10/14/15</h3>
+        <h3>Time: 3:00pm</h3>
+        <h3>Location: 2200D Student Center</h3>
+        <h3>Discussion Topics: </h3>
+        <ul>
+ <li>Introductions</li>
+                <li>GitHub Repository</li>
+                <li>Azure Continous WebApp Deployment Demonstration</li>
+            <li>Role Designation</li>
+        </ul>
+        <hr>
+        <div id="toDoList"> 
+            <br><br><br>
+            <h3>To-Do List</h3>
             <ul>
-                <li>Construct Basic Site Skeleton</li>
-                <li>Install Laravel</li>
+              
                 <li>Post Tutorials</li>
                 <li>Demo Laravel Via Log In System</li>
                 
             </ul>
-        </div>   
+            
+            
+            
+            
+            
+        </div>
+    
+    
+    
+    
     </div>
  </div>         
     

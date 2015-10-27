@@ -27,7 +27,7 @@
         <h1 id="wrapperTitle">Welcome to The Hub!</h1>
         <hr>
         
-        <img src="libs/images/birds.jpg" alt="birds" id="birdPic">
+        <img src="libs/images/head.jpg" alt="head" id="banner">
 
     </div>
     
