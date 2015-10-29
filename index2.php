@@ -13,7 +13,7 @@ function OpenConnection()
     try
     {
 
-        $serverName = "ssh:cs4320teamxvm.cloudapp.net,22";
+        $serverName = "TCP:cs4320teamxvm.cloudapp.net,5432";
         $connectionOptions = array("Database"=>"CS4320TeamXVM",
             "Uid"=>"azreuser", "PWD"=>"PokemonRocks!");
         $conn = sqlsrv_connect($serverName, $connectionOptions);
@@ -45,21 +45,16 @@ function OpenConnection()
         <h1 id="wrapperTitle">Welcome to The Hub!</h1>
         <hr>
         
-        <img src="libs/images/head.jpg" alt="head" id="banner">
+    
         <?php 
-        print("Testinggggg Yoooo");print("Testinggggg2 Yoooo");
-        $conn_string = "host=cs4320teamxvm.cloudapp.net port=5432 dbname=CS4320TeamXVM user=azureuser password=PokemonRocks!";
-        $dbconn4 = pg_connect($conn_string);
-        print("TESSSTooo");
-
-
-
-        if($dbconn4 == null)
+   print("Listen!");
+            $conn = OpenConnection(); 
+        if($conn == null)
         {
-            print("Super Sad ;-;");
+            echo("Super Sad ;-;");
         }
 
-        else{print("Super Nice ;-;");}
+        else{echo("Super Nice ;-;");}
         ?> 
        
     </div>
