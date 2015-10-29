@@ -50,10 +50,10 @@ function OpenConnection()
             $conn = OpenConnection(); 
         if($conn == null)
         {
-            echo("Super Sad ;-;");
+            print("Super Sad ;-;");
         }
 
-        else{echo("Super Nice ;-;");}
+        else{print("Super Nice ;-;");}
         ?> 
        
     </div>
