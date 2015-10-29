@@ -7,7 +7,27 @@
     
 <style>
 
-</style>    
+</style>  
+
+<script>
+function OpenConnection()
+{
+    try
+    {
+
+        $serverName = "ssh:cs4320teamxvm.cloudapp.net,22";
+        $connectionOptions = array("Database"=>"CS4320TeamXVM",
+            "Uid"=>"azreuser", "PWD"=>"PokemonRocks!");
+        $conn = sqlsrv_connect($serverName, $connectionOptions);
+        if($conn == false)
+            die(FormatErrors(sqlsrv_errors()));
+    }
+    catch(Exception $e)
+    {
+        echo("Error!");
+    }
+}</script>    
+    
 </head>
 <body>
     <div id="navbar">
