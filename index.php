@@ -48,7 +48,7 @@ function OpenConnection()
         <img src="libs/images/head.jpg" alt="head" id="banner">
         <?php 
         print("Testinggggg Yoooo");print("Testinggggg2 Yoooo");
-        $conn_string = "host=cs4320teamxvm.cloudapp.net port=80 dbname=CS4320TeamXVM user=azureuser password=PokemonRocks!";
+        $conn_string = "host=cs4320teamxvm.cloudapp.net port=5432 dbname=CS4320TeamXVM user=azureuser password=PokemonRocks!";
         $dbconn4 = pg_connect($conn_string);
 
 
