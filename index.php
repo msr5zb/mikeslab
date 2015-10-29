@@ -47,7 +47,8 @@ function OpenConnection()
         
         <img src="libs/images/head.jpg" alt="head" id="banner">
         <?php 
-            $conn = OpenConnection(); 
+    print("Testinggggg Yoooo");
+        $conn = OpenConnection(); 
         if($conn == null)
         {
             print("Super Sad ;-;");
