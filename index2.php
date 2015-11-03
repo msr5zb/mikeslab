@@ -48,6 +48,7 @@ function OpenConnection()
     
         <?php 
    print("Listen!");
+    phpinfo();
             $conn = OpenConnection(); 
         if($conn == null)
         {
