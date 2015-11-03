@@ -64,7 +64,9 @@ function OpenConnection()
        
     </div>
     
-    
+    <div>
+    <?php phpinfo(); ?>
+    </div>
     
     
     
