@@ -46,21 +46,7 @@ function OpenConnection()
         <hr>
         
         <img src="libs/images/head.jpg" alt="head" id="banner">
-        <?php 
-        print("Testinggggg Yoooo");print("Testinggggg2 Yoooo");
-        $conn_string = "host=40.78.158.213 port=5432 dbname=CS4320TeamXVM user=azureuser password=PokemonRocks!";
-        $dbconn4 = pg_connect($conn_string);
-        print("TESSSTooo");
-
-
-
-        if($dbconn4 == null)
-        {
-            print("Super Sad ;-;");
-        }
-
-        else{print("Super Nice ;-;");}
-        ?> 
+     
        
     </div>
     
